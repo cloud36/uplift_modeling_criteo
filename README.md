@@ -1,2 +1,7 @@
-# uplift_modeling_criteo
-Exploring uplift modeling via data open sourced by Crieto 
+# Uplift Modeling Criteo
+
+In this repository we explorie uplift modeling via data open sourced by Crieto (link here). 
+
+# Uplift Modeling Overview
+
+# Techniques
