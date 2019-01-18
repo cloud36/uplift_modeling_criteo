@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# start Google compute and run the following commands. 
+
 # download data
 wget https://s3.us-east-2.amazonaws.com/criteo-uplift-dataset/criteo-uplift.csv.gz
 
