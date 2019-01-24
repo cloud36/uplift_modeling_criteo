@@ -32,6 +32,8 @@ Below, we will perform and initial exploratory analysis of the dataset.
 SELECT COUNT(*) as treatment_and_exposure
 FROM `uplift.data`
 WHERE treatment = 0 AND exposure = 1
+
+-- This results in zero ad exposures for treatment subjects!
 ```
 
 2. Features should be independent of treatment / control group. If not, there was a problem with the randomization strategy. This can be confirmed with a Classifier 2 Sample Test (more about this test here)
