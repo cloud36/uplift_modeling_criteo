@@ -13,22 +13,23 @@ First, in order to determine causal effects in the world of online advertising i
 Below, we will perform and initial exploratory analysis of the dataset. 
 
 ## Dataset Size and Attributes
+- 25 Million Rows
+- 12 Features
+  - Features are unknown for privacy reasons. Additionally, the are projected as to keep predictive power, while making it extremely difficult to deduce what they originally were.
+- 2 binary labels
+  - Visits
+  - Conversions
+- Global Treatment Ratio: 84.6%
 
+## Attributes
 
-
+## Testing (Sanity Checks) 
 
 ## Notebooks
 link 1
 link 2
 link 3
 link 4
-
-## Dataset Size
-
-## Attributes
-
-## Testing (Sanity Checks) 
-
 
 
 ## References
