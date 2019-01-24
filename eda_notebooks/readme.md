@@ -14,6 +14,7 @@ Below, we will perform and initial exploratory analysis of the dataset.
 
 ## Dataset Size and Attributes
 - 25 Million Rows
+- 5.6 GB
 - 12 Features
   - Features are unknown for privacy reasons. Additionally, the are projected as to keep predictive power, while making it extremely difficult to deduce what they originally were.
 - 2 binary labels
