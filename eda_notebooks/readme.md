@@ -22,7 +22,7 @@ Below, we will perform and initial exploratory analysis of the dataset.
   - Conversions
 - Global Treatment Ratio: 84.6%
 
-## Attributes
+## Attribute Analysis
 
 Due to privacy concerns, Criteo took the step of projecting the features onto a seperate vector space. Additionally, they do not provide any labels for the features (except generic F0, F1, F2, etc). 
 
