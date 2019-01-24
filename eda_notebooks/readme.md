@@ -1,6 +1,6 @@
 # Exploratory Data Analysis
 
-## Dataset
+## Dataset Overview 
 
 The dataset (CRITEO-UPLIFT1) that will be used throughout this project was provided by Criteo and is the largest publicly available dataset specifically built and distributed for the purpose of studying uplift modeling. 
 
@@ -55,7 +55,7 @@ For this reason, it will be impossible to know what these features represent (by
 ### F11
 
 
-## Testing (Sanity Checks) 
+## Data Quality (Sanity Checks) 
 
 1. Confirm if user is not in treatment, they did not recieve an ad exposure. This can be confirmed with a simple SQL query can can be found in EDA_cb.ipynb 
 
@@ -70,6 +70,13 @@ WHERE treatment = 0 AND exposure = 1
 2. Features should be independent of treatment / control group. If not, there was a problem with the randomization strategy. This can be confirmed with a Classifier 2 Sample Test (more about this test here)
 
 INSERT GRAPH and p-values
+
+## Similarity and Distance
+
+
+## Data Preprocessing 
+
+In regards to data preprocessing, most of this was undertaken by Criteo. Therefore most of the tasks during this project will focus on model development and analysis. 
 
 ## Notebooks
 - link 1
