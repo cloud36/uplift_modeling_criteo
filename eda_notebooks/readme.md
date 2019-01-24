@@ -24,6 +24,37 @@ Below, we will perform and initial exploratory analysis of the dataset.
 
 ## Attributes
 
+Due to privacy concerns, Criteo took the step of projecting the features onto a seperate vector space. Additionally, they do not provide any labels for the features (except generic F0, F1, F2, etc). 
+
+For this reason, it will be impossible to know what these features represent (by design). However, these features still possess predictive power (as we can see in sanity check three below). Furthermore, we can still inspect these attributes via descriptive statistics as we see below. 
+
+### Descriptive Statistics
+
+### F0
+
+### F1
+
+### F2
+
+### F3
+
+### F4 
+
+### F5
+
+### F6
+
+### F7
+
+### F8
+
+### F9
+
+### F10
+
+### F11
+
+
 ## Testing (Sanity Checks) 
 
 1. Confirm if user is not in treatment, they did not recieve an ad exposure. This can be confirmed with a simple SQL query can can be found in EDA_cb.ipynb 
