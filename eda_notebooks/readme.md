@@ -84,6 +84,8 @@ In regards to data preprocessing, most of this was undertaken by Criteo. Therefo
 
 ## Next Steps 
 
+1. 
+
 ## References
 
 Eustache Diemert, Artem Betlei, Christophe Renaudin, and Massih-Reza
