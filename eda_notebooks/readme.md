@@ -22,9 +22,7 @@ Below, we will perform an exploratory analysis of the dataset.
 
 ## Attribute Analysis
 
-Due to privacy concerns, Criteo took the step of projecting the features onto a seperate vector space. Additionally, they do not provide any labels for the features (except generic F0, F1, F2, etc). 
-
-For this reason, it will be impossible to know what these features represent (by design). However, these features still possess predictive power (as we can see in sanity check three below). Furthermore, we can still inspect these attributes via descriptive statistics as we see below. 
+Due to privacy concerns, Criteo took the step of projecting the features onto a seperate vector space. Additionally, they do not provide any labels for the features (except generic F0, F1, F2, etc). For this reason, it is impossible to know what these features represent. However, these features still possess predictive power (as we can see in sanity check three below). Furthermore, we can still inspect these attributes via descriptive statistics as shown below. 
 
 ### Descriptive Statistics
 
@@ -68,6 +66,8 @@ WHERE treatment = 0 AND exposure = 1
 2. Features should be independent of treatment / control group. If not, there was a problem with the randomization strategy. This can be confirmed with a Classifier 2 Sample Test (more about this test here)
 
 INSERT GRAPH and p-values
+
+3. Make sure collected attributes possess predictive power. As Criteo mentions, this is a concern as the logged features were easy to collect and anonymized. 
 
 ## Similarity and Distance
 
