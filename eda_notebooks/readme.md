@@ -25,12 +25,21 @@ Below, we will perform and initial exploratory analysis of the dataset.
 
 ## Testing (Sanity Checks) 
 
-## Notebooks
-link 1
-link 2
-link 3
-link 4
+1. Confirm if user is not in treatment, they did not recieve an ad exposure. This can be confirmed with a simple SQL query can can be found in EDA_cb.ipynb 
 
+```
+SELECT COUNT(*) as treatment_and_exposure
+FROM `uplift.data`
+WHERE treatment = 0 AND exposure = 1
+```
+
+## Notebooks
+- link 1
+- link 2
+- link 3
+- link 4
+
+## Next Steps 
 
 ## References
 
