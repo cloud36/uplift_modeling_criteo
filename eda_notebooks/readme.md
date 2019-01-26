@@ -87,7 +87,21 @@ More information about Classifer to Sample Test (C2ST) can be found in reference
     - A classifer trained on the whole dataset. 
     
 - We then compare the the log-loss improvement of over the baseline. 
-    
+```
+Hamming Loss on Various Classifiers
+Loss of whole dataset: 0.08174242424242424
+Loss of treatment: 0.0743221462086751
+Loss of control: 0.2627177014661025
+Loss of baseline: 0.4721
+
+Log-loss Improvement over baseline
+Log-Loss impovement of whole dataset: 233.639854451623
+Log-Loss impovement of treatment: 246.31886735365222
+Log-Loss impovement of control: 78.08932986327547
+Log-Loss impovement of baseline: -0.0
+```
+
+- Above, we can see a substantial improvement over a baseline classifier leading us to the conclusion that the features present do hold predictive power for the target variable (conversions). 
    
 
 ## Similarity and Distance
@@ -105,7 +119,10 @@ In regards to data preprocessing, most of this was undertaken by Criteo. Therefo
 
 ## Next Steps 
 
-1. 
+1. Review Survey Papers presented in home readme.md
+2. Begin Modeling.
+    - Two-Model Approach
+    - Class Transformation Method
 
 ## References
 
