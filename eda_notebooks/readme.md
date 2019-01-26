@@ -79,7 +79,16 @@ WHERE treatment = 0 AND exposure = 1
 
 More information about Classifer to Sample Test (C2ST) can be found in references.[2] 
 
-3. Make sure collected attributes possess predictive power. As Criteo mentions, this is a concern as the logged features were easy to collect and anonymized. 
+3. Make sure collected attributes possess predictive power. As Criteo mentions, this is a concern as the logged features were easy to collect and anonymized. To accomplish this, we train four classifers:
+
+    - A baseline random classifier.
+    - A classifer trained on treatment.
+    - A classifer trained on control.
+    - A classifer trained on the whole dataset. 
+    
+- We then compare the the log-loss improvement of over the baseline. 
+    
+   
 
 ## Similarity and Distance
 
