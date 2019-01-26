@@ -67,6 +67,13 @@ WHERE treatment = 0 AND exposure = 1
 
 - To accomplish this, we first build a classifier on a random sample of the 25 million observations, then record the loss of this trained model. Secondly, randomly assign a treatment variable to each observation in the dataset, train a classifier and record the loss. We then repeat the second step 500 times provided a distribution for our null hypothesis and perform a one sample T-test. Below, we can see the results. 
 
+    Loss of classifier trained on treatment variable of full dataset: 0.15472727272727274
+    Average loss of classifers trained on random treatment variable: 0.1546344111776447
+    P-value = 0.227
+    
+    We fail to reject the null hypothesis. 
+    
+    
 
 
 
