@@ -63,9 +63,13 @@ WHERE treatment = 0 AND exposure = 1
 -- This results in zero ad exposures for treatment subjects!
 ```
 
-2. Features should be independent of treatment / control group. If not, there was a problem with the randomization strategy. This can be confirmed with a Classifier 2 Sample Test (more about this test here)
+2. Features should be independent of treatment / control group. If not, there was a problem with the randomization strategy. This can be confirmed with a Classifier 2 Sample Test. This test states that a classifier trained to predict the treatment variable should do no better than chance level. 
 
-INSERT GRAPH and p-values
+To accomplish this, we first build a classifier on a random sample of the 25 million observations, then record the loss of this trained model. Secondly, randomly assign a treatment variable to each observation in the dataset, train a classifier and record the loss. We then repeat the second step 500 times provided a distribution for our null hypothesis and perform a one sample T-test. Below, we can see the results. 
+
+
+
+
 
 3. Make sure collected attributes possess predictive power. As Criteo mentions, this is a concern as the logged features were easy to collect and anonymized. 
 
