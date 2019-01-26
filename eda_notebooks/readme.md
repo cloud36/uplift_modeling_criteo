@@ -77,6 +77,7 @@ WHERE treatment = 0 AND exposure = 1
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/2ClassiferTest.png)
 
+More information about Classifer to Sample Test (C2ST) can be found in references.[2] 
 
 3. Make sure collected attributes possess predictive power. As Criteo mentions, this is a concern as the logged features were easy to collect and anonymized. 
 
@@ -99,7 +100,10 @@ In regards to data preprocessing, most of this was undertaken by Criteo. Therefo
 
 ## References
 
-Eustache Diemert, Artem Betlei, Christophe Renaudin, and Massih-Reza
+[1] Eustache Diemert, Artem Betlei, Christophe Renaudin, and Massih-Reza
 Amini. 2018. A Large Scale Benchmark for Uplift Modeling. In Proceedings
 of AdKDD & TargetAd (ADKDD’18). ACM, New York, NY, USA, 6 pages.
 https://doi.org/10.1145/nnnnnnn.nnnnnnn
+
+[2] David Lopez-Paz, Robert Nishihara, Soumith Chintala, Bernhard Schölkopf, and
+Léon Bottou. Discovering Causal Signals in Images
