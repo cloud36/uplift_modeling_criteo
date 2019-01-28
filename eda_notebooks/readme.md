@@ -56,10 +56,10 @@ Due to privacy concerns, Criteo took the step of projecting the features onto a 
 
 We also wanted to check for the class distribution for conversion and visit target features:
 
-Conversion | Count
----------- | ----------
-0 | 25,251,421
-1 | 58,061
+Conversion | Count                    Visit | Count   
+---------- | ----------              ------ | ------
+0 | 25,251,421                        0 | 24,263,654 
+1 | 58,061                            1 | 1,045,828 
 
 
 ## Data Quality (Sanity Checks) 
