@@ -66,6 +66,24 @@ Visit | Count
 0 | 24,263,654 
 1 | 1,045,828 
 
+We also wanted to look at some cross-tab tables to see how these target variables interacted with the exposure variable:
+
+Exposure | Visit | Count 
+-------- | ----- | ------
+0 | 0 | 23,662,995 
+0 | 1 | 762,190
+1 | 0 | 600,659
+1 | 1 | 283,638
+
+Exposure | Conversion | Count 
+-------- | ---------- | ------
+0 | 0 | 24,398,777 
+0 | 1 | 26,408
+1 | 0 | 852,644
+1 | 1 | 31,653
+
+
+
 ## Data Quality (Sanity Checks) 
 
 1. Confirm if user is not in treatment, they did not recieve an ad exposure. This can be confirmed with a simple SQL query can can be found in EDA_cb.ipynb 
