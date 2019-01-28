@@ -24,6 +24,8 @@ Below, we will perform an exploratory analysis of the dataset.
 
 Due to privacy concerns, Criteo took the step of projecting the features onto a seperate vector space. Additionally, they do not provide any labels for the features (except generic F0, F1, F2, etc). For this reason, it is impossible to know what these features represent. However, these features still possess predictive power (as we can see in sanity check three below). Furthermore, we can still inspect these attributes via descriptive statistics as shown below. 
 
+
+
 ### Descriptive Statistics
 
 ### F0
@@ -49,6 +51,15 @@ Due to privacy concerns, Criteo took the step of projecting the features onto a 
 ### F10
 
 ### F11
+
+### Target Variables (Visit and Conversion)
+
+We also wanted to check for the class distribution for conversion and visit target features:
+
+Conversion | Count
+---------- | ----------
+0 | 25,251,421
+1 | 58,061
 
 
 ## Data Quality (Sanity Checks) 
