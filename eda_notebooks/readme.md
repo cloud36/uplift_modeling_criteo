@@ -30,7 +30,7 @@ Due to privacy concerns, Criteo took the step of projecting the features onto a 
 
 All descriptive statistics were analyzed with a 2% random sample from the full population dataset. We compared mean and standard deviation of the population with the mean and standard deviation of the sample to ensure that the sample was representative. 
 
-   | f0 |	f1 | f2 |	f3 | f4 |	f5 | f6 |	f7 | f8 |	f9 | f10 |	f11
+Measure | f0 |	f1 | f2 |	f3 | f4 |	f5 | f6 |	f7 | f8 |	f9 | f10 |	f11
 -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --- | ---
 count | 506906	| 506906 |	506906 |	506906	| 506906 |	506906 |	506906	| 506906 |	506906 |	506906 |	506906 |	506906
 mean |	0.6199 | 3.2656 |	8.5069 | 3.6564 | 3.5226 | 10.2014 | 1.7593 |	-0.2926 |	-2.0457 |	10.6696 |	-2.0923 |	4.1591
