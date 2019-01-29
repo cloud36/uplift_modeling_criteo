@@ -91,6 +91,38 @@ max |	1.9919 | 4.2807 |	9.3370 | 3.7358 |	7.2591 | 17.1289 | 2.9817 |	-0.1666 |	
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f11.png)
 
+### Correlation Plot
+
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/corrplot.png)
+
+### Scatter Plots
+
+We wanted to examine the relationship between some of the most correlated variables from our correlation plot, along with the target variables.
+
+F1 and F5 visit
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/f1f5visit.png)
+
+F1 and F5 conversion
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/f1f5conversion.png)
+
+F2 and F9 visit
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/f2f9visit.png)
+
+F2 and F9 conversion
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/f2f9conversion.png)
+
+F3 and F6 visit
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/f3f6visit.png)
+
+F3 and F6 conversion
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/f3f6conversion.png)
+
+F5 and F7 visit
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/f5f7visit.png)
+
+F5 and F7 conversion
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/f5f7conversion.png)
+
 ### Target Variables (Visit and Conversion)
 
 We also wanted to check for the class distribution for conversion and visit target features:
