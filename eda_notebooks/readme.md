@@ -45,27 +45,51 @@ max |	1.9919 | 4.2807 |	9.3370 | 3.7358 |	7.2591 | 17.1289 | 2.9817 |	-0.1666 |	
 
 ### F0
 
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f0.png)
+
 ### F1
+
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f1.png)
 
 ### F2
 
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f2.png)
+
 ### F3
+
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f3.png)
 
 ### F4 
 
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f4.png)
+
 ### F5
+
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f5.png)
 
 ### F6
 
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f6.png)
+
 ### F7
+
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f7.png)
 
 ### F8
 
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f8.png)
+
 ### F9
+
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f9.png)
 
 ### F10
 
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f10.png)
+
 ### F11
+
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f11.png)
 
 ### Target Variables (Visit and Conversion)
 
