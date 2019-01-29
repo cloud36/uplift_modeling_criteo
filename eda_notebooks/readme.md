@@ -28,6 +28,19 @@ Due to privacy concerns, Criteo took the step of projecting the features onto a 
 
 ### Descriptive Statistics
 
+All descriptive statistics were analyzed with a 2% random sample from the full population dataset. We compared mean and standard deviation of the population with the mean and standard deviation of the sample to ensure that the sample was representative. 
+
+   | f0 |	f1 | f2 |	f3 | f4 |	f5 | f6 |	f7 | f8 |	f9 | f10 |	f11
+-- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --- | ---
+count | 506906	| 506906 |	506906 |	506906	| 506906 |	506906 |	506906	| 506906 |	506906 |	506906 |	506906 |	506906
+mean |	0.6199 | 3.2656 |	8.5069 | 3.6564 | 3.5226 | 10.2014 | 1.7593 |	-0.2926 |	-2.0457 |	10.6696 |	-2.0923 |	4.1591
+std |	1.5349 | 0.0227 |	0.3592 | 0.2417 |	0.1094 | 0.2318 |	1.6708 | 0.6626 | 5.4641 | 2.2926 |	1.3831 |	0.0170
+min |	-1.9462 |	3.2636 | 8.2724 |	1.5866 | 3.5067 |	10.1612 |	-8.0021 |	-4.7248 | -32.3752 | 9.8500 |	-13.0379 | 4.1576
+25% | -1.0044 |	3.2636 | 8.2724 | 3.7358 | 3.5067 | 10.1612 |	0.9451 | -0.1666 | -2.7160 |	9.8500 | -1.8609 | 4.1576
+50% |	1.6339 | 3.2636 |	8.2724 | 3.7358 |	3.5067 | 10.1612 | 2.3860 |	-0.1666 |	1.1075 | 9.8500 |	-1.8609 |	4.1576
+75% |	1.9919 | 3.2636 |	8.7566 | 3.7358 |	3.5067 | 10.1612 | 2.9817 |	-0.1666 |	1.1075 | 9.8500 |	-1.8609 |	4.1576
+max |	1.9919 | 4.2807 |	9.3370 | 3.7358 |	7.2591 | 17.1289 | 2.9817 |	-0.1666 |	1.1075 | 28.3497 | -1.8609 | 4.9994
+
 ### F0
 
 ### F1
@@ -66,6 +79,8 @@ Visit | Count
 0 | 24,263,654 
 1 | 1,045,828 
 
+Both the conversion and visit target variables are imbalanced, with many more observations within the negative class. This will be an important consideration for us when building our model and sampling for further analysis.
+
 We also wanted to look at some cross-tab tables to see how these target variables interacted with the exposure variable:
 
 Exposure | Visit | Count 
@@ -82,7 +97,7 @@ Exposure | Conversion | Count
 1 | 0 | 852,644
 1 | 1 | 31,653
 
-
+After reviewing these crosstabs, it appears that the relationship between exposures and conversions is stronger than that of exposures to visits. We look forward to providing follow up and some analysis around the causality of these inferences when we continue modeling the data.
 
 ## Data Quality (Sanity Checks) 
 
