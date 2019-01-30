@@ -1,6 +1,6 @@
 # Project: Uplift Modeling via Criteo
 
-In this repository we explorie uplift modeling via data [open sourced by Crieto](http://ailab.criteo.com/criteo-uplift-prediction-dataset/. 
+In this repository we explorie uplift modeling via data open sourced by [Crieto](http://ailab.criteo.com/criteo-uplift-prediction-dataset/. 
 
 # Uplift Modeling Overview
 
