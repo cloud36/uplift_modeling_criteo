@@ -72,19 +72,19 @@ We wanted to examine the relationship between some of the most correlated featur
 
 The following four relationships highlight a strong positive correlation.  
 
-F1 and F5 conversion
+F1 and F5 w/Conversion
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f1_f5_scatterplot_ss.png)
 
-F3 and F6 conversion
+F3 and F6 w/Conversion
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f3_f6_scatterplot_ss.png)
 
-F6 and F3 conversion
+F6 and F3 w/Conversion
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f06_f03_scatterplot_ss.png)
 
-F11 and F4 conversion
+F11 and F4 w/Conversion
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f11_f04_scatterplot_ss.png)
 
@@ -92,15 +92,15 @@ F11 and F4 conversion
 
 The following three relationships highlight a strong positive correlation.  
 
-F7 and F5 conversion
+F7 and F5 w/Conversion
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/neg_f07_f05_scatterplot_ss.png)
 
-F08 and F09 conversion
+F08 and F09 w/Conversion
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/neg_f08_f09_scatterplot_ss.png)
 
-F10 and F4 conversion
+F10 and F4 w/Conversion
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/neg_f10_f04_scattterplot_ss.png)
 
