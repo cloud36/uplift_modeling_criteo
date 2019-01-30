@@ -91,9 +91,13 @@ max |	1.9919 | 4.2807 |	9.3370 | 3.7358 |	7.2591 | 17.1289 | 2.9817 |	-0.1666 |	
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f11.png)
 
-### Correlation Plot
+### Correlation Plot - Features
 
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/corrplot.png)
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/features_correlations_ss.png)
+
+### Correlation Plot - All Variables
+
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/all_correlation_ss.png)
 
 ### Scatter Plots
 
