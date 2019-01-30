@@ -106,23 +106,29 @@ We wanted to examine the relationship between some of the most correlated variab
 #### Positive Correlations
 
 F1 and F5 conversion
+
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f1_f5_scatterplot_ss.png)
 
 F3 and F6 conversion
+
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f3_f6_scatterplot_ss.png)
 
 F6 and F3 conversion
+
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f06_f03_scatterplot_ss.png)
 
 #### Negative Correlations
 
 F7 and F5 conversion
+
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/neg_f07_f05_scatterplot_ss.png)
 
 F08 and F09 conversion
+
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/neg_f08_f09_scatterplot_ss.png)
 
 F10 and F4 conversion
+
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/neg_f10_f04_scatterplot_ss.png)
 
 ### Target Variables (Visit and Conversion)
@@ -161,12 +167,12 @@ Exposure | Conversion | Count
 
 #### Sample Crosstabs
 
-visit	0	1
-conversion	0	0	1
-treatment	exposure			
-0	0	75975	1890	145
-1	0	397971	12922	396
-1	11986	5020	601
+| | Visit	| 0	| 1
+| conversion|	0|	0|	1
+treatment |	exposure | | |			
+0	| 0	| 75975 |	1890	| 145
+1	| 0	| 397971 | 12922	| 396
+  | 1 | 11986	| 5020	| 601
 
 visit	0	1
 conversion	0	0	1
