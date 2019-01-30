@@ -208,7 +208,6 @@ In regards to data preprocessing, most of this was undertaken by Criteo. Therefo
 2. Begin Modeling.
     - Two-Model Approach
     - Class Transformation Method
-3. Class Transformation Method 
 
 ## References
 
