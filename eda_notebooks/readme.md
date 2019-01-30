@@ -208,6 +208,11 @@ In regards to data preprocessing, most of this was undertaken by Criteo. Therefo
 2. Begin Modeling.
     - Two-Model Approach
     - Class Transformation Method
+    
+## Presentations
+
+1. [Overview & Feature Analysis](https://www.youtube.com/watch?v=Bfby7hleOq0&feature=youtu.be)
+2. [Data Quality & Next Steps](https://www.youtube.com/watch?v=RHJmwlGbq5I)
 
 ## References
 
