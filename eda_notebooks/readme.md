@@ -77,7 +77,7 @@ F1 and F5 w/Conversion
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f1_f5_scatterplot_ss.png)
 
-F3 and F6 w/Conversion
+F6 and F0 w/Conversion
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f3_f6_scatterplot_ss.png)
 
