@@ -1,5 +1,7 @@
 # Exploratory Data Analysis
 
+*Authors: Chris Barton, 	Sohaj Shergill, Joey Berkowitz*
+
 ## Dataset Overview 
 
 The dataset (CRITEO-UPLIFT1) that will be used throughout this project was provided by Criteo and is the largest publicly available dataset specifically built and distributed for the purpose of studying uplift modeling. 
