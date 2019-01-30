@@ -197,10 +197,10 @@ Log-Loss impovement of baseline: -0.0
 In regards to data preprocessing, most of this was undertaken by Criteo. Therefore most of the tasks during this project will focus on model development and analysis. 
 
 ## Notebooks
-- link 1
-- link 2
-- link 3
-- link 4
+- [EDA Notebook 1](https://github.com/cloud36/uplift_modeling_criteo/blob/master/eda_notebooks/CSC672_EDA_JB.ipynb)
+- [Data Quality](https://github.com/cloud36/uplift_modeling_criteo/blob/master/eda_notebooks/EDA_cb.ipynb)
+- [EDA Notebook 2](https://github.com/cloud36/uplift_modeling_criteo/blob/master/eda_notebooks/EDA_Sohaj.ipynb)
+
 
 ## Next Steps 
 
@@ -208,6 +208,7 @@ In regards to data preprocessing, most of this was undertaken by Criteo. Therefo
 2. Begin Modeling.
     - Two-Model Approach
     - Class Transformation Method
+3. Class Transformation Method 
 
 ## References
 
