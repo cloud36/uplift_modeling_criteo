@@ -30,6 +30,8 @@ Due to privacy concerns, Criteo took the step of projecting the features onto a 
 
 All descriptive statistics were analyzed with a 2% random sample from the full population dataset. We compared mean and standard deviation of the population with the mean and standard deviation of the sample to ensure that the sample was representative. 
 
+Overall, most features are not normally distributed which can be observed in both the histograms and the summary below.  Since we are largely looking to use Logistic Regression, Decision Trees and SVM for modeling and none of these models have a normality assumption, we decided against normalizing the dataset using log or power transformations.  In case we do end up using linear models during the modeling phase, we will revisit this topic and make appropriate transformations.  
+
 Measure | f0 |	f1 | f2 |	f3 | f4 |	f5 | f6 |	f7 | f8 |	f9 | f10 |	f11
 -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --- | ---
 count | 506906	| 506906 |	506906 |	506906	| 506906 |	506906 |	506906	| 506906 |	506906 |	506906 |	506906 |	506906
@@ -43,67 +45,32 @@ max |	1.9919 | 4.2807 |	9.3370 | 3.7358 |	7.2591 | 17.1289 | 2.9817 |	-0.1666 |	
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/boxplot.png)
 
-### F0
+### Feature Distributions
 
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f0.png)
+Median and Mean is fairly seperated for F0, F2, F6, F7, F8, F9, F10 and F11 features.  Histograms and Box plot seem to reflect this and reaffirm the lack of normality in the dataset.  
 
-### F1
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/histograms_ss.png)
 
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f1.png)
-
-### F2
-
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f2.png)
-
-### F3
-
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f3.png)
-
-### F4 
-
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f4.png)
-
-### F5
-
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f5.png)
-
-### F6
-
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f6.png)
-
-### F7
-
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f7.png)
-
-### F8
-
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f8.png)
-
-### F9
-
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f9.png)
-
-### F10
-
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f10.png)
-
-### F11
-
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/hist_f11.png)
 
 ### Correlation Plot - Features
+
+When looking at correlation amongst the features, we observe 4 relationships with strong positive correlation and 3 relationships with strong negative correlation.  These features are further examined in the scatterplots below with an overlay of one of our target variables - conversion.  
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/features_correlation_ss.png)
 
 ### Correlation Plot - All Variables
 
+When looking at correlation amongst all variables including our two target variables (Visits and Conversion), we don't really see a strong correlation of any one feature in relation to our target variables.    
+
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/all_correlation_ss.png)
 
 ### Scatter Plots
 
-We wanted to examine the relationship between some of the most correlated variables from our correlation plot, along with the target variables.
+We wanted to examine the relationship between some of the most correlated features from our correlation plot, along with the target variable - conversion.
 
 #### Positive Correlations
+
+The following four relationships highlight a strong positive correlation.  
 
 F1 and F5 conversion
 
@@ -117,7 +84,13 @@ F6 and F3 conversion
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f06_f03_scatterplot_ss.png)
 
+F11 and F4 conversion
+
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/pos_f11_f04_scatterplot_ss.png)
+
 #### Negative Correlations
+
+The following three relationships highlight a strong positive correlation.  
 
 F7 and F5 conversion
 
@@ -129,7 +102,7 @@ F08 and F09 conversion
 
 F10 and F4 conversion
 
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/neg_f10_f04_scatterplot_ss.png)
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/neg_f10_f04_scattterplot_ss.png)
 
 ### Target Variables (Visit and Conversion)
 
@@ -149,8 +122,6 @@ Both the conversion and visit target variables are imbalanced, with many more ob
 
 We also wanted to look at some cross-tab tables to see how these target variables interacted with the exposure variable:
 
-#### Population Crosstabs
-
 Exposure | Visit | Count 
 -------- | ----- | ------
 0 | 0 | 23,662,995 
@@ -165,21 +136,6 @@ Exposure | Conversion | Count
 1 | 0 | 852,644
 1 | 1 | 31,653
 
-#### Sample Crosstabs
-
-| | Visit	| 0	| 1
-| conversion|	0|	0|	1
-treatment |	exposure | | |			
-0	| 0	| 75975 |	1890	| 145
-1	| 0	| 397971 | 12922	| 396
-  | 1 | 11986	| 5020	| 601
-
-visit	0	1
-conversion	0	0	1
-treatment	exposure			
-0	0	0.973914	0.024228	0.001859
-1	0	0.967619	0.031418	0.000963
-1	0.680752	0.285114	0.034134
 
 After reviewing these crosstabs, it appears that the relationship between exposures and conversions is stronger than that of exposures to visits. We look forward to providing follow up and some analysis around the causality of these inferences when we continue modeling the data.
 
