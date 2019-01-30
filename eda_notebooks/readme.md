@@ -149,7 +149,7 @@ SELECT COUNT(*) as treatment_and_exposure
 FROM `uplift.data`
 WHERE treatment = 0 AND exposure = 1
 
--- This results in zero ad exposures for treatment subjects!
+-- This results in zero ad exposures for control subjects!
 ```
 
 2. Features should be independent of treatment / control group. If not, there was a problem with the randomization strategy. This can be confirmed with a Classifier 2 Sample Test. This test states that a classifier trained to predict the treatment variable should do no better than chance level. 
