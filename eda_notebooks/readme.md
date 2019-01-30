@@ -93,7 +93,7 @@ max |	1.9919 | 4.2807 |	9.3370 | 3.7358 |	7.2591 | 17.1289 | 2.9817 |	-0.1666 |	
 
 ### Correlation Plot - Features
 
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/features_correlations_ss.png)
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/features_correlation_ss.png)
 
 ### Correlation Plot - All Variables
 
@@ -102,6 +102,8 @@ max |	1.9919 | 4.2807 |	9.3370 | 3.7358 |	7.2591 | 17.1289 | 2.9817 |	-0.1666 |	
 ### Scatter Plots
 
 We wanted to examine the relationship between some of the most correlated variables from our correlation plot, along with the target variables.
+
+# Positive Correlations
 
 F1 and F5 visit
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/f1f5visit.png)
@@ -212,10 +214,6 @@ Log-Loss impovement of baseline: -0.0
 ```
 
 - Above, we can see a substantial improvement over a baseline classifier leading us to the conclusion that the features present do hold predictive power for the target variable (conversions). 
-   
-
-## Similarity and Distance
-
 
 ## Data Preprocessing 
 
