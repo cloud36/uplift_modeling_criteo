@@ -43,14 +43,13 @@ min |	-1.9462 |	3.2636 | 8.2724 |	1.5866 | 3.5067 |	10.1612 |	-8.0021 |	-4.7248 
 75% |	1.9919 | 3.2636 |	8.7566 | 3.7358 |	3.5067 | 10.1612 | 2.9817 |	-0.1666 |	1.1075 | 9.8500 |	-1.8609 |	4.1576
 max |	1.9919 | 4.2807 |	9.3370 | 3.7358 |	7.2591 | 17.1289 | 2.9817 |	-0.1666 |	1.1075 | 28.3497 | -1.8609 | 4.9994
 
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/boxplot.png)
-
 ### Feature Distributions
 
 Median and Mean is fairly seperated for F0, F2, F6, F7, F8, F9, F10 and F11 features.  Histograms and Box plot seem to reflect this and reaffirm the lack of normality in the dataset.  
 
-![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/histograms_ss.png)
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/boxplot.png)
 
+![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/histograms_ss.png)
 
 ### Correlation Plot - Features
 
