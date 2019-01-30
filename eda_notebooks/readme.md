@@ -51,13 +51,15 @@ Median and Mean is fairly seperated for F0, F2, F6, F7, F8, F9, F10 and F11 feat
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/histograms_ss.png)
 
-### Correlation Plot - Features
+### Correlation Plot
+
+#### Features
 
 When looking at correlation amongst the features, we observe 4 relationships with strong positive correlation and 3 relationships with strong negative correlation.  These features are further examined in the scatterplots below with an overlay of one of our target variables - conversion.  
 
 ![graphic](https://github.com/cloud36/uplift_modeling_criteo/blob/master/img/features_correlation_ss.png)
 
-### Correlation Plot - All Variables
+#### All Variables
 
 When looking at correlation amongst all variables including our two target variables (Visits and Conversion), we don't really see a strong correlation of any one feature in relation to our target variables.    
 
